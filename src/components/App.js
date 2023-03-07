@@ -1,6 +1,5 @@
 import React, {Component, useState} from "react";
 import "./../styles/App.css";
-import {useState} from "react"
 function App() {
   const [initial,setInitial] = useState(false)
   return (
