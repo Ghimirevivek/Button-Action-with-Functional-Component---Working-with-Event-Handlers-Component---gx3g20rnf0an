@@ -5,8 +5,8 @@ function App() {
   const [initial,setInitial] = useState(false)
   return (
     <div id="main">
-      // Do not alter the main div
-    {initial?<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : <button id="click">Click</button>}
+    {initial?<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : (null)}
+    <button id="click" onClick={()=>setInitial(true)}>Click me</button>
     </div>
   );
 }
